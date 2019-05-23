@@ -18,6 +18,7 @@ public class MappingConfig {
             @Override
             protected void configure() {
                 mapping(ProductEntity.class, ProductModel.class);
+
             }
         };
     }
